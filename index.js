@@ -4,6 +4,11 @@ function takeANumber(line, name){
     return `Welcome, ${name}. You are number ${line.length} in line.`
 }
 
+function takeANumberAlternate(){
+  
+  return `Welcome you are number ${x}.`
+}
+
 /* the function is called nowServing
   the parameter (line) is being passed into the function
   return first person in line (begining of the line)
@@ -11,16 +16,13 @@ function takeANumber(line, name){
   if there is nobody in line (if, else)
   return "There is nobody waiting to be served!" */
 
-function nowServing(line){
-  
-  if  (line.length === 0){
-  
+function nowServing(line)
+  if  (line.length === 0)
   return 'There is nobody waiting to be served!'
   }
     else {
   return `Currently serving ${line.shift()}.`
   }
-
 }
 
 /* function name is currentLine
