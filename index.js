@@ -5,8 +5,9 @@ function takeANumber(line, name){
 }
 
 function takeANumberAlternate(line){
-  var x = 1 
-  line.push(++x)
+  var x = 0
+  x++
+  line.push(x)
   return `Welcome you are number ${x}.`
 }
 
