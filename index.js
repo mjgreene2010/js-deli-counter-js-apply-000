@@ -3,12 +3,11 @@ function takeANumber(line, name){
    line.push(name)
     return `Welcome, ${name}. You are number ${line.length} in line.`
 }
-  
-  var x = 0
+var x = 0
 
 function takeANumberAlternate(line){
-  ++x
-  line.push(x)
+  
+  line.push(++x)
   return `Welcome you are number ${x}.`
 }
 
